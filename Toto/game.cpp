@@ -58,19 +58,19 @@ int main()
     cout << "You guessed " << correctGuesses << " numbers correctly." << endl;
     if (correctGuesses == 6)
     {
-        cout << "Congratulations! You have won $7,000,000." << endl;
+        cout << "Congratulations! You win $7,000,000." << endl;
     }
     else if (correctGuesses == 5)
     {
-        cout << "You have won $7,000." << endl;
+        cout << "You win $7,000." << endl;
     }
     else if (correctGuesses == 4)
     {
-        cout << "You have won $70." << endl;
+        cout << "You win $70." << endl;
     }
     else if (correctGuesses == 3)
     {
-        cout << "You have won $7." << endl;
+        cout << "You win $7." << endl;
     }
     else
     {
