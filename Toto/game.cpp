@@ -62,19 +62,19 @@ int main()
     }
     else if (correctGuesses == 5)
     {
-        cout << "You win $7,000." << endl;
+        cout << "Congratulations! You win $7,000." << endl;
     }
     else if (correctGuesses == 4)
     {
-        cout << "You win $70." << endl;
+        cout << "Congratulations! You win $70." << endl;
     }
     else if (correctGuesses == 3)
     {
-        cout << "You win $7." << endl;
+        cout << "Congratulations! You win $7." << endl;
     }
     else
     {
-        cout << "Sorry, you did not win a prize." << endl;
+        cout << "Congratulations! Sorry, you did not win a prize." << endl;
     }
 
     cout << "The Toto numbers are: ";
